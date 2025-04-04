@@ -179,7 +179,7 @@ def send_message(to_user, access_token, region_name, weather, temp, wind_dir, no
         "touser": to_user,
         "template_id": config["template_id"],
         "url": "http://weixin.qq.com/download",
-        "topcolor": "#FF0000",
+        "topcolor": "#FF44AA",
         "data": {
             "date": {
                 "value": "{} {}".format(today, week),
